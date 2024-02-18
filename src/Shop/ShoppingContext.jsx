@@ -2,7 +2,9 @@ import React from 'react'
 import { useContext, createContext } from 'react'
 
  export const CartContext =createContext({
-    items :[]
+    items :[],
+    addItemToCart : () => {},
+    updateCartItemQuantity : () => {},
 })
 
 // const ShoppingContext = ({children}) => {
